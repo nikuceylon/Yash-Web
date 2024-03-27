@@ -76,7 +76,7 @@ body {
 }
 
 .nav-container-mobile {
-  width: 80%;
+  width: 90%;
   height: 6vh;
   margin: auto;
   display: flex;
@@ -159,6 +159,9 @@ body {
 
 /*----------- Hero Section End -----------*/
 
+
+
+
 /*----------- Hero Section End -----------*/
 
 @media only screen and (max-width: 780px) {
@@ -179,7 +182,7 @@ body {
   #heroSection {
     width: 100%;
     background-color: #f5f7fa;
-    height: 94vh;
+    height: 90vh;
     display: flex;
   }
 
@@ -191,7 +194,7 @@ body {
 
   .hero-title1 {
     color: #4d4d4d;
-    font-size: 30px;
+    font-size: 25px;
     text-transform: uppercase;
     font-weight: 800;
     margin: auto;
@@ -202,7 +205,7 @@ body {
 
   .hero-title2 {
     color: #4caf4f;
-    font-size: 30px;
+    font-size: 25px;
     text-transform: uppercase;
     font-weight: 800;
     margin: auto;
@@ -212,7 +215,7 @@ body {
   }
 
   .hero-para {
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 500;
     color: #4d4d4d;
     letter-spacing: 2px;
@@ -223,8 +226,9 @@ body {
 
   .hero-img {
     height: auto;
-    width: 40vw;
+    width: 50vw;
     padding-right: 0;
+    padding-bottom: 50px;
   }
 
   .hero-left {
