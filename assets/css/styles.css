@@ -1,0 +1,125 @@
+/*----------- Basic Styles Start -----------*/
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100px;
+}
+
+/*----------- Basic Styles End -----------*/
+
+/*----------- Navigation Bar Start -----------*/
+#navSection{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    z-index: 99;
+}
+
+.nav-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo{
+    height: 25px;
+    width: auto;
+    display: flex;
+    padding-top: 5px;
+}
+
+.nav-menu{
+    display: flex;
+    gap: 10px;
+}
+
+.nav-menu li{
+    list-style-type: none;
+    padding: 8px 12px;
+}
+
+.nav-menu li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.nav-btn{
+    background-color: #4CAF4F;
+    border-radius: 5px;
+}
+
+.nav-btn a{
+    border-radius: 5px;
+    color: #FFFFFF !important;
+}
+
+/*----------- Navigation Bar End -----------*/
+
+
+/*----------- Hero Section Start -----------*/
+
+#heroSection{
+    width: 100%;
+    background-color: #F5F7FA;
+    height: 92vh;
+    display: flex;
+}
+
+.hero-wrapper{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-title1{
+    color: #4D4D4D;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: auto;
+    letter-spacing: 1px;
+    padding-top: 5px;
+}
+
+.hero-title2{
+    color: #4CAF4F;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: auto;
+    letter-spacing: 1px;
+    padding-top: 5px;
+}
+
+.hero-para{
+    font-size: 20px;
+    font-weight: 600;
+    color: #4D4D4D;
+    letter-spacing: 3px;
+    padding: 10px 0;
+}
+
+.hero-img{
+    height: 40vh;
+    padding-right: 50px;
+}
+
+.hero-left a{
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #4CAF4F;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+/*----------- Hero Section End -----------*/
