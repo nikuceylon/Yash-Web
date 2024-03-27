@@ -76,7 +76,7 @@ body {
 }
 
 .nav-container-mobile {
-  width: 90%;
+  width: 80%;
   height: 6vh;
   margin: auto;
   display: flex;
@@ -187,6 +187,7 @@ body {
   }
 
   .hero-wrapper {
+    width: 100%;
     flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
@@ -215,10 +216,10 @@ body {
   }
 
   .hero-para {
-    font-size: 11px;
+    font-size: 5px;
     font-weight: 500;
     color: #4d4d4d;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     padding-top: 5px;
     padding-bottom: 20px;
     text-align: center;
